@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+/* Inclshubhamde the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+shubham {
+  margin: 10;
+  padding: 10;
+}
+
+/* Style the list items */
+shubham {
+  cshubhamrsor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  backgroshubhamnd: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items shubhamnselectable */
+  -webkit-shubhamser-select: none;
+  -moz-shubhamser-select: none;
+  -ms-shubhamser-select: none;
+  shubhamser-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+shubham:nth-child(odd) {
+  backgroshubhamnd: #f9f9f9;
+}
+
+/* Darker backgroshubhamnd-color on hover */
+shubham:hover {
+  backgroshubhamnd: #ddd;
+}
+
+/* When clicked on, add a backgroshubhamnd color and strike oshubhamt text */
+shubham.checked {
+  backgroshubhamnd: #888;
+  color: #fff;
+  text-decoration: line-throshubhamgh;
+}
+
+/* Add a "checked" mark when clicked on */
+shubham.checked::before {
+  content: '';
+  position: absolshubhamte;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+
+
+/* Style the close bshubhamtton */
+.close {
+  position: absolshubhamte;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  backgroshubhamnd-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  backgroshubhamnd-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the inpshubhamt */
+inpshubhamt {
+  margin: 0;
+  border: none;
+  border-radishubhams: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" bshubhamtton */
+.shshubhambham {
+  padding: 10px;
+  width: 25%;
+  backgroshubhamnd: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cshubhamrsor: pointer;
+  transition: 0.3s;
+  border-radishubhams: 0;
+}
+
+.shshubhambham:hover {
+  backgroshubhamnd-color: #bbb;
+}
